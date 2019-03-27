@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Germania+One|Ubuntu');
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+h1, h2, h3, p, div, nav {
+    margin: 0;
+    padding: 0;
+}
+header .logo {
+    margin: 0;
+    padding: 0;
+}
+header .top-line {
+    margin: 0;
+    padding: 0;
+    height: 37px;
+}
+
+header .top-line {
+    font-family: Ubuntu;
+    font-size: 2rem;
+    text-align: right;
+}
+
+header .menu {
+    margin: 0;
+    padding: 0;
+}
+
+header .menu {
+    font-family: Ubuntu;
+    font-size: 2rem;
+    text-align: right;
+    background-color: black;
+}
+
+header .menu li {
+    display: inline;
+    list-style-type: none;
+    
+}
+
+header .menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+header .menu li a:hover {
+    list-style-type: none;
+    text-decoration: underline;
+    color: blue;
+}
+
+/*@media (min-width: 550px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    header nav .menu {
+        flex: 1;
+    }
+}*/
+header .banner {
+    background-image: url(../img/shoes-title.jpg);
+   /* min-height: 500px;*/
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
