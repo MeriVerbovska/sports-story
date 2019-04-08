@@ -8,46 +8,72 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    <!--<header class=desctop>-->
+    <!--    <div class="logo">-->
+    <!--        <img src="img/logo1.jpg" alt="logo">-->
+    <!--    </div>-->
+    <!--    <div class="name">-->
+    <!--        <h1> SPORTS<br>STORE </h1>-->
+    <!--    </div>-->
+    <!--    <div class="top">-->
+    <!--        <div class="top-line">-->
+    <!--            <input type="text"placeholder="Search..."> 8-500-48-499-->
+    <!--        </div>-->
+    <!--        <nav>-->
+    <!--            <ul class="menu">-->
+    <!--                <li><a href="index.html">Home</a></li>-->
+    <!--                <li><a href="#products">Products</a></li>-->
+    <!--                <li><a href="#contact">Contacts</a></li>-->
+    <!--                <li><a href="cabinet.html">My Cabinet</a></li>-->
+    <!--            </ul>-->
+    <!--        </nav>-->
+    <!--    </div>-->
+    <!--</header>-->
     <header>
+        <div class="top-line">
+            <p>8-500-48-499</p>
+            <p><input type="text"placeholder="Search..."></p>
+        </div>
         <div class="logo">
-            <img src="img/logo.jpg" alt="sports store">
+            <h1>SPORTS</h1>-
+            <h1><img src="img/logo1.jpg" width="60" height="60"></h1>
+            <h1>STORY</h1>
         </div>
-        <div class="top">
-            <div class="top-line">
-                <input type="text"placeholder="Search..."> 8-500-48-499
-            </div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#contact">Contacts</a></li>
-                    <li><a href="cabinet.html">My Cabinet</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="banner">
-            <img src="img/shoes-title.jpg" alt="shoes-title">
-        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <li><a href="cabinet.html">MyCabinet</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section id="products">
-            <div class="product-img">
-                <a href="product/shoes.html"><img src="img/shoe-products.jpg" alt="shoe-products"></a>
-            </div>
-            <div class="product-name">
-                Shoes
-            </div>
-            <div class="product-img">
-                <a href="products/spots_equipment.html"><img src="img/sports_equipment.jpg" alt="sport-equipment"></a>
-            </div>
-            <div class="product-name">
-                Sport-equipment
-            </div>
-            <div class="product-img">
-                <a href="product/spots-bag.html"><img src="img/sports-bag.jpg" alt="sport-bag"></a>
-            </div>
-            <div class="product-name">
-                Sport-bag
+        <div class="banner">
+            <h2><a href="products/spots_equipment.html">Shoes</h2>
+            <!--<img src="img/shoes-title.jpg" alt="shoes-title">-->
+        </div>
+        <section>
+            <h2 id="products">Products</h2>
+            <div class="product-list">
+                <article class="product-cart">
+                    <img src="img/shoe-products.jpg" alt="shoe-products">
+                    <h2><a href="product/shoes.html">Shoes</a></h2>
+                    <p>women, man, kids</p>
+                    <button>Buy</button>
+                </article>
+                <article class="product-cart">
+                    <img src="img/sports_equipment.jpg" alt="sport-equipment">
+                    <h2><a href="product/spots_equipment.html">Sport-equipment</h2>
+                    <p>women, man, kids</p>
+                    <button class="button">Buy</button>
+                </article>
+                <article class="product-cart">
+                    <img src="img/sports-bag.jpg" alt="sport-equipment">
+                    <h2><a href="product/spots-bag.html">Sport-bag</h2>
+                    <p>women, man, kids</p>
+                    <button class="button">Buy</button>
+                </article>
             </div>
         </section>
         <br>
