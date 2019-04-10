@@ -27,7 +27,8 @@ header .logo {
     font-family: Ubuntu;
     font-size: 1rem;
     color: blue;
-    text-align: center;
+    display: flex;
+    justify-content:center;
     align-items:center;
 }
 header .logo h1 {
@@ -41,7 +42,7 @@ header .menu {
     justify-content: space-around;
     flex-wrap: wrap;
     font-family: Ubuntu;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     background-color: black;
     margin: 0;
@@ -62,35 +63,47 @@ header .menu li a:hover {
 }
 
 
-main .banner {
+header .banner {
     background-image: url(../img/shoes-title.jpg);
     min-height: 400px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     
 }
-main .banner h2 {
+header .banner h2 {
     padding: 30px;
     color: blue;
     text-decoration: none;
+
 }
-.product-list article{
-    display: inline;
+.product-list {
+    font-family: Ubuntu;
+    font-size: 1rem;
 }
+.product-cart {
+    border: 1px solid blue;
+}
+
+.product-cart h3,
+.product-cart p{
+    padding: 0 5px;
+}
+
 .product-cart img {
     display: block;
     width: 100%;
 }
-.product-cart .button {
+.product-cart .button-container {
     display: flex;
     justify-content: center;
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: blue; /* Green */
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -101,6 +114,47 @@ main .banner h2 {
     cursor: pointer;
     background-color: white; 
     color: black; 
-    border: 2px solid #4CAF50;
+    border: 2px solid blue;
 }
+.button:hover{
+    background-color: blue;
+    color: white;
+}
+    
+@media (min-width: 480px){
+    .product-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
+@media (min-width: 660px){
+    .product-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 980px){
+    .product-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}    
+
+footer {
+    background-color: black;
+    font-family: Ubuntu;
+    color: blue;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+    
+footer .formname input {
+    background-color: black;
+    margin-left: 50px;
+    border-width: 0;
+}  
+    
+    
+    
+    
     
