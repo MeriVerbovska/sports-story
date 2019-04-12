@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Germania+One|Ubuntu');
 
+:root {
+    scroll-behavior: smooth; 
+}
+
 body {
     max-width: 980px;
     margin: auto;
@@ -62,21 +66,17 @@ header .menu li a:hover {
     color: blue;
 }
 
+/*header #caroselOffers {*/
+/*    height: 500px;*/
+/*}*/
 
-header .banner {
-    background-image: url(../img/shoes-title.jpg);
-    min-height: 400px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    
-}
-header .banner h2 {
-    padding: 30px;
-    color: blue;
-    text-decoration: none;
+/*header #caroselOffers img {*/
+/*    min-height: 500px;*/
 
+.carousel-inner img{
+    min-height: 370px;
 }
+
 .product-list {
     font-family: Ubuntu;
     font-size: 1rem;
@@ -103,7 +103,7 @@ header .banner h2 {
     background-color: blue; /* Green */
     border: none;
     color: white;
-    padding: 10px 32px;
+    padding: 5px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -147,13 +147,27 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+footer form {
+    
+}
     
 footer .formname input {
     background-color: black;
-    margin-left: 50px;
+    margin-left: 55px;
     border-width: 0;
+    color: grey;
 }  
-    
+footer .formemail input {
+    background-color: black;
+    margin-left: 55px;
+    border-width: 0;
+    color: grey;
+}  
+footer .formbirth input {
+    background-color: black;
+    color: grey;
+    border-width: 0;
+}
     
     
     

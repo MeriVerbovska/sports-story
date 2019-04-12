@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "title": "Nike",
+        "image": "shoe-products.jpg",
+        "price": 99.00
+    },
+    {
+        "id": "2",
+        "title": "Nike",
+        "image": "shoe-products.jpg",
+        "price": 99.00
+    },
+    {
+        "id": "3",
+        "title": "Nike",
+        "image": "shoe-products.jpg",
+        "price": 99.00
+    },
+    {
+        "id": "4",
+        "title": "Nike",
+        "image": "shoe-products.jpg",
+        "price": 99.00
+    },
+    {
+        "id": "5",
+        "title": "Nike",
+        "image": "shoe-products.jpg",
+        "price": 99.00
+    },
+    {
+        "id": "6",
+        "title": "Nike",
+        "image": "shoe-products.jpg",
+        "price": 99.00
+    },
+    {
+        "id": "7",
+        "title": "Nike",
+        "image": "shoe-products.jpg",
+        "price": 99.00
+    },
+    {
+        "id": "8",
+        "title": "Nike",
+        "image": "shoe-products.jpg",
+        "price": 99.00
+    },
+    {
+        "id": "9",
+        "title": "Nike",
+        "image": "shoe-products.jpg",
+        "price": 99.00
+    }
+]

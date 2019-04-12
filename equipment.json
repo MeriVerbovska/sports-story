@@ -1,0 +1,64 @@
+ [
+    {
+        "id": "1",
+        "title": "Вumbbells",
+        "image": "sports-equipment.jpg",
+        "price": 99.00
+    },
+    
+    {
+        "id": "2",
+        "title": "Вumbbells",
+        "image": "sports-equipment.jpg",
+        "price": 99.00
+    },
+    
+    {
+        "id": "3",
+        "title": "Вumbbells",
+        "image": "sports-equipment.jpg",
+        "price": 99.00
+    },
+    
+    {
+        "id": "4",
+        "title": "Вumbbells",
+        "image": "sports-equipment.jpg",
+        "price": 99.00
+    },
+    
+    {
+        "id": "5",
+        "title": "Вumbbells",
+        "image": "sports-equipment.jpg",
+        "price": 99.00
+    },
+    
+    {
+        "id": "6",
+        "title": "Вumbbells",
+        "image": "sports-equipment.jpg",
+        "price": 99.00
+    },
+    
+    {
+        "id": "7",
+        "title": "Вumbbells",
+        "image": "sports-equipment.jpg",
+        "price": 99.00
+    },
+    
+    {
+        "id": "8",
+        "title": "Вumbbells",
+        "image": "sports-equipment.jpg",
+        "price": 99.00
+    },
+    
+    {
+        "id": "9",
+        "title": "Вumbbells",
+        "image": "sports-equipment.jpg",
+        "price": 99.00
+    }
+]
