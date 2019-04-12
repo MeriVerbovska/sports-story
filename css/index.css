@@ -66,28 +66,15 @@ header .menu li a:hover {
     color: blue;
 }
 
-/*header #caroselOffers {*/
-/*    height: 500px;*/
-/*}*/
-
-/*header #caroselOffers img {*/
-/*    min-height: 500px;*/
-
-.carousel-inner img{
-    min-height: 370px;
-}
-
-.product-list {
-    font-family: Ubuntu;
-    font-size: 1rem;
-}
 .product-cart {
     border: 1px solid blue;
+    font-family: Ubuntu;
 }
 
 .product-cart h3,
 .product-cart p{
     padding: 0 5px;
+    font-size: 1rem;
 }
 
 .product-cart img {
@@ -147,10 +134,7 @@ footer {
     display: flex;
     justify-content: space-around;
 }
-footer form {
-    
-}
-    
+  
 footer .formname input {
     background-color: black;
     margin-left: 55px;
@@ -168,7 +152,12 @@ footer .formbirth input {
     color: grey;
     border-width: 0;
 }
-    
+footer .formsubmit input {
+    background-color: black;
+    color: red;
+    border-width: 0;
+    padding: 0;
+}   
     
     
     

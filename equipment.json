@@ -1,64 +1,64 @@
  [
     {
         "id": "1",
-        "title": "Вumbbells",
-        "image": "sports-equipment.jpg",
+        "title": "Adidas Telstar 18",
+        "image": "equipment/AdidasTelstar18.jpg",
         "price": 99.00
     },
     
     {
         "id": "2",
-        "title": "Вumbbells",
-        "image": "sports-equipment.jpg",
+        "title": "Zelart Beauty (2x0,5кг)",
+        "image": "equipment/ZelartBeauty(2x0,5кг).jpg",
         "price": 99.00
     },
     
     {
         "id": "3",
-        "title": "Вumbbells",
-        "image": "sports-equipment.jpg",
+        "title": "Bodybar Star Fit B",
+        "image": "equipment/BodyBarStarFit.jpg",
         "price": 99.00
     },
     
     {
         "id": "4",
-        "title": "Вumbbells",
-        "image": "sports-equipment.jpg",
+        "title": "Nike Magia Soccer Ball",
+        "image": "equipment/NikeMagiaSoccerBall.jpg",
         "price": 99.00
     },
     
     {
         "id": "5",
         "title": "Вumbbells",
-        "image": "sports-equipment.jpg",
+        "image": "equipment/sports-equipment.jpg",
         "price": 99.00
     },
     
     {
         "id": "6",
         "title": "Вumbbells",
-        "image": "sports-equipment.jpg",
+        "image": "equipment/sports-equipment.jpg",
         "price": 99.00
     },
     
     {
         "id": "7",
         "title": "Вumbbells",
-        "image": "sports-equipment.jpg",
+        "image": "equipment/sports-equipment.jpg",
         "price": 99.00
     },
     
     {
         "id": "8",
         "title": "Вumbbells",
-        "image": "sports-equipment.jpg",
+        "image": "equipment/sports-equipment.jpg",
         "price": 99.00
     },
     
     {
         "id": "9",
         "title": "Вumbbells",
-        "image": "sports-equipment.jpg",
+        "image": "equipment/sports-equipment.jpg",
         "price": 99.00
     }
 ]

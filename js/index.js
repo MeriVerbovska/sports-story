@@ -1,6 +1,3 @@
-// const cart = new Cart($('#cartModal'));
-// const productList = new ProductList('products.json', $('.products-list'), cart);
-
 const menu = document.querySelector('.menu li');
 
 menu.forEach( addEventListener('click', menuPressed) );

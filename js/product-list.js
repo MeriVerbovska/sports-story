@@ -1,6 +1,5 @@
 class ProductList {
     constructor (productsUrl, renderContainer) {
-       // this.cart = cart;
         fetch(productsUrl)
             .then(result => result.json() )
             .then(products => {
@@ -18,7 +17,7 @@ class ProductList {
             productListDomString += 
                 `<article class="product-cart">
                     <img src="img/${product.image}" alt="${product.title}">
-                    <h2>${product.title}</h2>
+                    <h3>${product.title}</h3>
                     <p>$${product.price}</p>
                     <div class="button-container">
                         <button class="button button-buy" data-id="${product.id}">
@@ -26,19 +25,7 @@ class ProductList {
                         </button>
                     </div>
                 </article>`;
-                
         });
         container.html(productListDomString);
-    }
-    addEventListeners() {
-        
-        $('.card.product button.buy').click( event => {
-            const button = $(event.target);
-            console.log(button);
-            const id  = button.data('id'); 
-            console.log(id);
-            this.cart.addProduct(id);
-            window.showAlert('Product added to cart');
-        });
     }
 }

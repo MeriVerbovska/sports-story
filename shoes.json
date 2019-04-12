@@ -2,55 +2,55 @@
     {
         "id": "1",
         "title": "Nike",
-        "image": "shoe-products.jpg",
-        "price": 99.00
+        "image": "shoes/shoe-products.jpg",
+        "price": 9999.00
     },
     {
         "id": "2",
-        "title": "Nike",
-        "image": "shoe-products.jpg",
-        "price": 99.00
+        "title": "Adidas Alphabounce Instinc",
+        "image": "shoes/AdidasAlphabounceInstinc.jpg",
+        "price": 9999.00
     },
     {
         "id": "3",
-        "title": "Nike",
-        "image": "shoe-products.jpg",
-        "price": 99.00
+        "title": "Nike Air Toukol III",
+        "image": "shoes/NikeAirToukol3.jpg",
+        "price": 9999.00
     },
     {
         "id": "4",
-        "title": "Nike",
-        "image": "shoe-products.jpg",
+        "title": "Nike WMNS Air Huarache",
+        "image": "shoes/NikeWMNSAirHuarache.jpg",
         "price": 99.00
     },
     {
         "id": "5",
-        "title": "Nike",
-        "image": "shoe-products.jpg",
+        "title": "Adidas LA Trainer",
+        "image": "shoes/AdidasLATrainer.jpg",
         "price": 99.00
     },
     {
         "id": "6",
         "title": "Nike",
-        "image": "shoe-products.jpg",
+        "image": "shoes/shoe-products.jpg",
         "price": 99.00
     },
     {
         "id": "7",
         "title": "Nike",
-        "image": "shoe-products.jpg",
+        "image": "shoes/shoe-products.jpg",
         "price": 99.00
     },
     {
         "id": "8",
         "title": "Nike",
-        "image": "shoe-products.jpg",
+        "image": "shoes/shoe-products.jpg",
         "price": 99.00
     },
     {
         "id": "9",
         "title": "Nike",
-        "image": "shoe-products.jpg",
+        "image": "shoes/shoe-products.jpg",
         "price": 99.00
     }
 ]
